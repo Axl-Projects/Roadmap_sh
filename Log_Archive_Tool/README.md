@@ -1,5 +1,7 @@
 # Log Archive CLI Tool
 
+## Project URL: https://roadmap.sh/projects/log-archive-tool
+
 This project is a simple **command-line tool** written in **Bash** that archives log files from a given directory by compressing them into a `.tar.gz` file.  
 It is useful for **log rotation**, **system cleanup**, and **backup purposes**, while keeping logs available for future reference.
 
