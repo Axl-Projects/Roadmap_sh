@@ -1,0 +1,36 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+}
+
+/* Center everything */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card design */
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h2 {
+    margin-bottom: 15px;
+    color: #0077ff;
+}
+
+/* Paragraph */
+p {
+    line-height: 1.6;
+}
