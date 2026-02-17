@@ -1,0 +1,12 @@
+---
+# tasks file for roles/app
+- name: Copy website
+  copy:
+    src: site.tar.gz
+    dest: /var/www/html/
+
+- name: Extract website
+  unarchive:
+    src: /var/www/html/site.tar.gz
+    dest: /var/www/html/
+    remote_src: yes

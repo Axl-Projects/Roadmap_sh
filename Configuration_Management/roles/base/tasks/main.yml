@@ -1,0 +1,15 @@
+---
+# tasks file for roles/base
+- name: Update apt
+  apt:
+    update_cache: yes
+    upgrade: dist
+
+- name: Install basic packages
+  apt:
+    name:
+      - curl
+      - git
+      - unzip
+      - fail2ban
+    state: present

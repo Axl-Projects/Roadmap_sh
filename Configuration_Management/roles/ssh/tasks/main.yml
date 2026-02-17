@@ -1,0 +1,6 @@
+---
+# tasks file for roles/ssh
+- name: Add SSH key
+  authorized_key:
+    user: ubuntu
+    key: "{{ lookup('file', 'files/id_rsa.pub') }}"
