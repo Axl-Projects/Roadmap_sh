@@ -1,5 +1,6 @@
 # Roadmap_sh
 Roadmap projects to learn
+## Project URL EC2 Instance: https://roadmap.sh/projects/ec2-instance
 ## Project URL Dummy Systemd Service: https://roadmap.sh/projects/dummy-systemd-service
 ## Project URL Configuration Management - Ansible: https://roadmap.sh/projects/configuration-management
 ## Project URL Static Site Server: https://roadmap.sh/projects/static-site-server
